@@ -84,4 +84,4 @@
   * Illustrator 
   * Indesign   
   * After Effects  
-  * Premiere
+  * Premier
