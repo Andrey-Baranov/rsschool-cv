@@ -1,0 +1,390 @@
+/*Обнуление*/
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+    line-height: 160%;
+
+}
+
+img {
+    vertical-align: top;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 90px;
+    line-height: 100%;
+}
+
+h2 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+h4 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.line {
+    background-color: black;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* HEADER-----------------------------------------------------------------------------------*/
+
+.header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {}
+
+.nav {}
+
+.nav ul {
+    display: flex;
+}
+
+.nav__link {
+    padding-left: 30px;
+    color: black;
+}
+
+nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+
+.nav__link {
+    display: inline-block;
+    color: #000000;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.nav__link:after {
+    background-color: #000000;
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.nav__link:hover:after,
+.nav__link:focus:after {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* WELCOME----------------------------------------------------------------------------------*/
+
+
+.welcome {
+    margin-top: 200px;
+}
+
+.welcome__content {}
+
+/* ABOUT----------------------------------------------------------------------------------*/
+
+
+.about {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__content {
+    max-width: 680px;
+}
+
+.about__title {
+    margin-bottom: 30px;
+}
+
+.about__description {}
+
+.about__image {}
+
+/* SKILLS----------------------------------------------------------------------------------*/
+
+.skills {
+    margin-top: 120px;
+}
+
+.skills__title {
+    margin-bottom: 30px;
+}
+
+.skills__content {
+    display: flex;
+    justify-content: space-between;
+    width: 716px;
+    margin-left: 244px;
+}
+
+.skills__box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 228px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.skills__box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 228px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.skills__box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 228px;
+    height: 350px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+
+/* EDUCATION----------------------------------------------------------------------------------*/
+
+.education {
+    margin-top: 120px;
+}
+
+.education__title {
+    margin-bottom: 30px;
+}
+
+.education__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 244px;
+    min-width: 716px;
+}
+
+.education__box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin-bottom: 100px;
+}
+
+.line__education {
+    background-color: black;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+/* EXPERIENCE----------------------------------------------------------------------------------*/
+
+.experience {
+    margin-top: 20px;
+}
+
+.experience__title {
+    margin-bottom: 30px;
+}
+
+.experience__content {}
+
+.experience__description {
+    display: flex;
+}
+
+.experience__year {
+    min-width: 244px;
+}
+
+.experience__text {}
+
+.experience__position {
+    margin-bottom: 20px;
+}
+
+/* EXAMPLE OF CODE----------------------------------------------------------------------------------*/
+
+.code {
+    margin-top: 120px;
+
+}
+
+.code__title {
+    margin-bottom: 30px;
+}
+
+.code__content {
+    display: flex;
+    justify-content: space-between;
+    width: 716px;
+    margin-left: 244px;
+    border: 1px solid black;
+    padding: 15px;
+
+}
+
+
+/* FOOTER----------------------------------------------------------------------------------*/
+
+.contacts {
+    margin-top: 120px;
+    display: flex;
+
+}
+
+.contacts__title {
+    width: 488px;
+
+}
+
+.contacts__content {
+    width: 488px;
+
+}
+
+.contacts__phone {
+    width: 488px;
+    margin-bottom: 50px;
+}
+
+.phone {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+.mail {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.contacts__social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.contact__box-content {}
+
+.contacts__box-link {
+    color: black;
+}
+
+.line__bottom {
+    background-color: black;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-width: 0;
+
+}
+
+.contacts__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+
+}
+
+.contacts__rs {
+    width: 100px;
+    margin-right: 400px;
+    object-fit: none;
+
+}
+
+.contacts__github {
+    width: 288px;
+    margin-right: 88px;
+}
+
+.contacts__copyright {
+    width: 288px;
+
+}
